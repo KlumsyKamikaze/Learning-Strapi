@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_game_editions",
+  "info": {
+    "displayName": "Edition",
+    "icon": "gamepad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Base Game",
+        "Edition"
+      ],
+      "required": true
+    }
+  }
+}
